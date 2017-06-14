@@ -22,7 +22,7 @@
 在 `config/app.php` 文件的 `aliases` 数组中加入：
 
 ```php
-  'MNS' => Quefei\AliyunMns\Facades\MNS::class,
+  'MNS' => Buer\AliyunMns\Facades\MNS::class,
 ```
 
 
