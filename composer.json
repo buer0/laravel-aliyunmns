@@ -11,7 +11,7 @@
   "require": {
     "php": ">=5.5",
     "illuminate/support": "5.3.*",
-    "darcyx/aliyunmns": "1.1.*"
+    "darcyx/aliyunmns": "1.3.*"
   },
   "minimum-stability": "stable",
   "autoload": {
