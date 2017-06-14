@@ -10,9 +10,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "illuminate/support": "5.3.*"
-  },
-  "require-dev": {
+    "illuminate/support": "5.3.*",
     "darcyx/aliyunmns": "1.1.*"
   },
   "minimum-stability": "stable",
