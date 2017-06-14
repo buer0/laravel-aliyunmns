@@ -6,7 +6,7 @@
 
 
 ```php
-  composer require quefei/aliyunmns
+  composer require buerxiaojie/aliyunmns
 ```
 
 ### 2. 注册：
