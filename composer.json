@@ -1,0 +1,23 @@
+{
+  "name": "buer/laravel-aliyunmns",
+  "description": "Aliyun MNS for laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "buer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "illuminate/support": "5.3.*"
+  },
+  "require-dev": {
+        "quefei/aliyunmns": "~1.1"
+    },
+  "autoload": {
+    "psr-4": {
+    	"Buer\\AliyunMNS\\": "src/"
+    }
+  }
+}
