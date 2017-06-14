@@ -6,7 +6,7 @@
 
 
 ```php
-  composer require buerxiaojie/aliyunmns
+composer require buerxiaojie/laravel-aliyunmns
 ```
 
 ### 2. 注册：
