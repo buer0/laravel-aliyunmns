@@ -1,5 +1,5 @@
 <?php
-namespace Buer\AliyunMns\Contracts;
+namespace Buerxiaojie\AliyunMns\Contracts;
 
 interface MNS
 {

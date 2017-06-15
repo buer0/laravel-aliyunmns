@@ -1,5 +1,5 @@
 <?php
-namespace Buer\AliyunMns\Facades;
+namespace Buerxiaojie\AliyunMns\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

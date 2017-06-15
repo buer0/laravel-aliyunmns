@@ -1,8 +1,8 @@
 <?php 
-namespace Buer\AliyunMns\Providers;
+namespace Buerxiaojie\AliyunMns\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Buer\AliyunMns\AliyunMns;
+use Buerxiaojie\AliyunMns\AliyunMns;
 
 class MnsServiceProvider extends ServiceProvider
 {

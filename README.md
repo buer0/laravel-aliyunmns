@@ -15,14 +15,14 @@ composer require buerxiaojie/laravel-aliyunmns
 在 `config/app.php` 文件的 `providers` 数组中加入：
 
 ```php
-  Buer\AliyunMns\Providers\MnsServiceProvider::class,
+  Buerxiaojie\AliyunMns\Providers\MnsServiceProvider::class,
 ```
 
 
 在 `config/app.php` 文件的 `aliases` 数组中加入：
 
 ```php
-  'MNS' => Buer\AliyunMns\Facades\MNS::class,
+  'MNS' => Buerxiaojie\AliyunMns\Facades\MNS::class,
 ```
 
 

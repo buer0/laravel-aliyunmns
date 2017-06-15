@@ -1,7 +1,7 @@
 <?php 
-namespace Buer\AliyunMns;
+namespace Buerxiaojie\AliyunMns;
 
-use Buer\AliyunMns\Contracts\MNS;
+use Buerxiaojie\AliyunMns\Contracts\MNS;
 use AliyunMNS\Client;
 use AliyunMNS\Topic;
 use AliyunMNS\Constants;
