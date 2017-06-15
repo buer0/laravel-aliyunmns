@@ -16,7 +16,7 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-    	"Buer\\AliyunMns\\": "src/"
+    	"Buer\\AliyunMns\\": "src/aliyunmns/"
     }
   }
 }
