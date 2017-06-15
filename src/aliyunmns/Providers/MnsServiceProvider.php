@@ -24,7 +24,7 @@ class MnsServiceProvider extends ServiceProvider
 
 	private function registerAliyunMnsBind()
 	{
-		$this->app->bind('AliyunMns\Contracts\MNS', function() {
+		$this->app->bind('Buerxiaojie\AliyunMns\Contracts\MNS', function() {
 			return new AliyunMns();
 		});
 	}
