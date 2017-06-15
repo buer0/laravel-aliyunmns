@@ -15,7 +15,7 @@ use AliyunMNS\Requests\PublishMessageRequest;
 /**
 * 
 */
-class ClassName implements MNS
+class AliyunMns implements MNS
 {
 	protected function init()
 	{
@@ -35,7 +35,7 @@ class ClassName implements MNS
          * Step 2. 获取主题引用
          */
         $this->resolveTopic($callback);
-        return $this->client->getTopicRef($this->topicName);
+                return $this->client->getTopicRef($this->topicName);
 
 	}
 
@@ -67,9 +67,9 @@ class ClassName implements MNS
 	{
 		$this->init();
         
-        $topic = $this->getTopicRef($callback);
+                $topic = $this->getTopicRef($callback);
 
-        $messageAttributes = $this->batchAttributes($phoneNumber, $signName, $templateCode, $templateParam);
+                $messageAttributes = $this->batchAttributes($phoneNumber, $signName, $templateCode, $templateParam);
         
         /**
          * Step 4. 设置SMS消息体（必须）

@@ -45,7 +45,7 @@ composer require buerxiaojie/laravel-aliyunmns
    */
    
   ALIYUN_ACCESS_ID=
-  ALIYUN_ACCESS_SECRET=
+  ALIYUN_ACCESS_KEY=
   ALIYUN_MNS_ENDPOINT=
   ALIYUN_MNS_TOPIC_NAME=
  

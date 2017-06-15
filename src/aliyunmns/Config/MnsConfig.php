@@ -7,5 +7,5 @@ return [
 
 	'MnsEndpoint' => env('ALIYUN_MNS_ENDPOINT'),
 
-	'TopicName' => env('ALIYUN_MNS_TOPIC_NAME', 'sms.topic-cn-shenzhen'),
+	'topicName' => env('ALIYUN_MNS_TOPIC_NAME', 'sms.topic-cn-shenzhen'),
 ];
