@@ -15,7 +15,7 @@ composer require buerxiaojie/laravel-aliyunmns
 在 `config/app.php` 文件的 `providers` 数组中加入：
 
 ```php
-  Buer\AliyunMns\Providers\MnsProvider::class,
+  Buer\AliyunMns\Providers\MnsServiceProvider::class,
 ```
 
 

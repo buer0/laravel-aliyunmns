@@ -4,7 +4,7 @@ namespace Buer\AliyunMns\Providers;
 use Illuminate\Support\ServiceProvider;
 use Buer\AliyunMns\AliyunMns;
 
-class MnsProvider extends ServiceProvider
+class MnsServiceProvider extends ServiceProvider
 {
 	public function boot()
 	{
