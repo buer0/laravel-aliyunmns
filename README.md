@@ -47,7 +47,6 @@ composer require buerxiaojie/laravel-aliyunmns
   ALIYUN_ACCESS_ID=
   ALIYUN_ACCESS_KEY=
   ALIYUN_MNS_ENDPOINT=
-  ALIYUN_MNS_TOPIC_NAME=
  
 ```
 
@@ -69,11 +68,7 @@ composer require buerxiaojie/laravel-aliyunmns
    *
    */
    
-  MNS::send("手机号码", "短信签名", "短信模板", ["模板参数的键" => "模板参数的值"]);
-  
-  // 切换topic时
-  MNS::send("手机号码", "短信签名", "短信模板", ["模板参数的键" => "模板参数的值"], function() {
-  	return "NEW TOPIC NAME";
-  });
+  MNS::send("手机号码", "短信签名", "短信模板", ["模板参数的键" => "模板参数的值"], "流水号", "上行短信扩展码");
+
  
 ```
